@@ -371,7 +371,7 @@ input, select, textarea {
 		}
 
 			#main .items > :last-child {
-				border-right: solid 10px #ffffff;
+				border-right: solid 10px #292929;
 			}
 
 		#main .item {
@@ -385,7 +385,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			margin: 5px;
 			height: 16em;
-			box-shadow: 0 0 0 10px #ffffff;
+			box-shadow: 0 0 0 10px #292929;
 		}
 
 			#main .item.span-1 {
@@ -401,7 +401,7 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
+				background-color: #000000;
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -580,7 +580,7 @@ input, select, textarea {
 					flex-shrink: 1;
 					width: calc(50vw - 15px) !important;
 					margin: 2.5px;
-					box-shadow: 0 0 0 5px #ffffff;
+					box-shadow: 0 0 0 5px #292929;
 				}
 
 					#main .item.intro {
@@ -716,7 +716,7 @@ input, select, textarea {
 	.poptrox-popup {
 		background: #1a1f2c;
 		background: rgba(18, 21, 29, 0.9);
-		box-shadow: 0px 0px 0px 10px #fff, 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
+		box-shadow: 0px 0px 0px 10px #292929, 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
 		cursor: default;
 	}
 
@@ -811,7 +811,7 @@ input, select, textarea {
 			.poptrox-popup {
 				background: #0a0f1c;
 				box-shadow: 0px 0px 30px 10px rgba(8, 11, 19, 0.85);
-				border: solid 2.5px #fff;
+				border: solid 2.5px #292929;
 				-moz-box-sizing: content-box;
 				-webkit-box-sizing: content-box;
 				-ms-box-sizing: content-box;

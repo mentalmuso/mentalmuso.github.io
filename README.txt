@@ -1,46 +1,67 @@
-Parallelism by HTML5 UP
+Eventually by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-It's done! Parallelism was an idea I mocked up a few months ago but, due to other
-committments, didn't get around to putting to code until recently. Different to
-my more general-purpose freebies, this one's specifically built for portfolio use
-with a very unique look/layout. Hope you enjoy it!
+Just a simple placeholder template for your kickass app/product/startup/whatever until it
+launches. Includes an email signup form and a cool slideshow background (more on both below).
 
-Demo images* are courtesy of the supremely talented photographer Felicia Simion.
-If you like photography or just enjoy being blown away by awesome stuff, check
-out her portfolio for more stunning images:
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-http://ineedchemicalx.deviantart.com/
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+(* = not included)
 
 AJ
 aj@lkn.io | @ajlkn
 
 
+Signup Form:
+
+	The signup form won't actually do anything (other than report back with a "thank you" message)
+	until you tie it to either a third party service (eg. MailChimp) or your own hosted solution.
+	In either case, there are two ways to go:
+
+	1. The conventional (non-AJAX) way, which pretty much comes down to pointing the form's "action"
+	attribute to your service/script URL. If you go this route, remove the entire "Signup Form" code
+	block from assets/js/main.js (since it's not needed for this approach).
+
+	-or-
+
+	2. The AJAX way. How you set this up is largely dependent on the service/solution you're using
+	so you'll need to consult their/its documentation. However, I have included some basic code
+	(under "Signup Form" in assets/js/main.js) that will at least let you interact with the
+	form itself.
+
+
+Slideshow Background:
+
+	This is pretty straightforward, but there are two JS settings you'll want to be aware of
+	(found under "Slideshow Background" in assets/js/main.js):
+
+	images
+
+		The list of images to cycle through, given in the following format:
+
+			'url': 'alignment'
+
+		Where 'url' is the image (eg. 'images/foo.jpg', 'http://somewhere.else/foo.jpg'), and
+		'alignment' is how the image should be vertically aligned ('top', 'center', or 'bottom').
+
+		Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.
+
+	delay
+
+		How long to wait between transitions (in ms). Note that this must be at least twice as long as
+		the transition speed itself (currently 3 seconds).
+
+
 Credits:
 
 	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-			"Pasadena" (ineedchemicalx.deviantart.com/art/Pasadena-357650036)
-			"Your really got me" (ineedchemicalx.deviantart.com/art/You-really-got-me-345249340)
-			"Ad Infinitum" (ineedchemicalx.deviantart.com/art/Ad-infinitum-354203162)
-			"Different." (ineedchemicalx.deviantart.com/art/Different-353708988)
-			"Elysium" (ineedchemicalx.deviantart.com/art/Elysium-355393900)
-			"Kingdom of the Wind" (ineedchemicalx.deviantart.com/art/Kingdom-of-the-Wind-348268044)
-			"The Pursuit" (ineedchemicalx.deviantart.com/art/The-Pursuit-355003425)
-			"Boundless" (ineedchemicalx.deviantart.com/art/Boundless-291831118)
-			"The Spectators" (ineedchemicalx.deviantart.com/art/The-Spectators-342155982)
+		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
 
 	Other:
-		jQuery (jquery.com)
-		normalizeWheel (@miorel + @pieterv of Facebook)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
